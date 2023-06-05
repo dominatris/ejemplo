@@ -1,15 +1,9 @@
-function Ejercicio1() {
-    var meses = ["Enero","Febrero","Marzo","Abrir","Mayo","junio","julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
 
-    for (let i = 0; i < meses.length; i++) {
-        console.log(meses[i]);
-    }
-}
 
 //ejercicico 22222222222222
 
 function Ejercicio2() {
-    var valores = [true, 5, false, "hola", "adios",2,"gjdjdflk"];
+    var valores = [true, 5, false, "hola", "adios",2];
     var valor = "";
 
     for (let i = 0; i < valores.length; i++) {
@@ -46,46 +40,4 @@ numero1 = numero1 + 1;
 if(numero2 > numero1) {
 console.log("Incrementar en 1 unidad el valor de numero1 no lo hace mayor o igual que numero2");
 }
-}
-
-
-
-function Ejercicio4(params) {
-    var letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K',
-'E', 'T'];
-
-var dni = document.querySelector("#entrada").value;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-function solicitudAJAX() {
-
-    var id = document.querySelector("#entrada").value;
-    var url = "https://pokeapi.co/api/v2/pokemon/"+id;
-
-    var objXMLHttpRequest = new XMLHttpRequest();
-
-    objXMLHttpRequest.onreadystatechange = function() {
-    if(objXMLHttpRequest.readyState === 4) {
-        if(objXMLHttpRequest.status === 200) {
-          console.log(objXMLHttpRequest.responseText);
-        }else {
-          alert('Error Code: ' +  objXMLHttpRequest.status);
-          alert('Error Message: ' + objXMLHttpRequest.statusText);
-        }
-    }
-}
-objXMLHttpRequest.open('GET', url);
-objXMLHttpRequest.send();
 }
