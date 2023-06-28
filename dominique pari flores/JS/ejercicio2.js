@@ -18,4 +18,4 @@ if (valores[3].length > valores[4].length) {
 }else{
     console.log("adios en mayor")
 }
-}
+} 

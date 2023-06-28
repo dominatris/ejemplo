@@ -1,3 +1,7 @@
+
+
+
+
 function Ejercicio1() {
     var meses = ["Enero","Febrero","Marzo","Abrir","Mayo","junio","julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
 

@@ -6,4 +6,3 @@ function Ejercicio6(params) {
         console.log("El número es impar");
     }
 }
-
